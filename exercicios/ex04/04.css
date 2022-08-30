@@ -1,0 +1,22 @@
+img{
+    width: 46px;
+    height: 46px;
+}
+h2{
+    margin-top: 70px;
+}
+#vertical{
+    vertical-align: bottom
+}
+#middle{
+    vertical-align: middle;
+}
+#top{
+    vertical-align: top;
+}
+#left{
+    float: left;
+}
+#right{
+    float: right; 
+}

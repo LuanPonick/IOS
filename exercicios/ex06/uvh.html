@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <label for="cNome">
+                Nome
+            </label>
+            <br>
+            <input type="text" name="nome" id="cnome" size="50px" required="required">
+            <br>
+            <p>onde voce mora</p>
+            <input type="radio" name="cidint" id="cidade" value="C">
+            <label for="cidade">Cidade</label>
+            <br>
+            <input type="radio" name="cidint" id="interior" value="I">
+            <label for="interior">Interior</label>
+            <br><br>
+        <p>Qual meio de transporte voce usa</p>
+
+        <input type="checkbox" name="transporteBicicleta" id="bicicleta">
+        <label for="bicicleta">Bicicleta</label>
+        <br>
+
+        <input type="checkbox" name="transporteMoto" id="moto">
+        <label for="moto">Moto</label>
+        <br>
+
+        <input type="checkbox" name="transporteCarro" id="carro">
+        <label for="carro">Carro</label>
+        <br><br>
+        <select name="time" id="time">
+                <option value="flamengo">flamengo</option>
+                <option value="flamengo">flamengo</option>
+                <option value="flamengo">flamengo</option>
+                <option value="flamengo">flamengo</option>
+                <option value="flamengo">flamengo</option>
+                <option value="flamengo">flamengo</option>
+                <option value="flamengo">flamengo</option>
+            </select>
+            <br><br>
+            <label for="cCid">escolha a sua cidade na lista </label>
+    
+    <form action="#">
+        <label for="cCid">Escolha a sua Cidade na lista:</label>
+        <input autocomplete="on" list="cidade" name="tCid" id="cCid" />
+        <datalist id="cidade">
+            <option value="São Paulo"></option>
+            <option value="Campinas"></option>
+            <option value="Santos"></option>
+            <option value="Santo André"></option>
+            <option value="Osasco"></option>
+        </datalist>
+        <input type="submit" value="pronto">
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+*{
+    text-transform: capitalize;
+}
+header{
+    background-color: rgba(116, 116, 228, 0.671);
+}
+main{
+    background-color: rgba(175, 97, 248, 0.445);
+}
+section{
+    font-family: monospace;
+    color: rgba(52, 168, 52, 0.658);
+    font-size: 1.2em;
+}
+small{
+    color: blue;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <label for="nome">Digite seu nome</label><br>
+        <input type="text" name="nome" id="nome" width="500px" required="required">
+        <br>
+        <input  type="submit" value="enviar" style="margin-top: 30px" onclick="fazer()">
+    </form>
+    <script>
+        function fazer()
+        {
+            
+            var nome = document.getElementById('nome')
+            if(nome.value != ''){
+            window.alert('olá ' + nome.value);
+            }
+            else{
+                window.alert('verifique se todos os dados esta corretamente colocado!!!');
+            }
+        }
+    </script>
+</body>
+</html>

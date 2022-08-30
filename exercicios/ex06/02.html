@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+            margin: auto
+        }
+        *::first-letter {
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>
+            exemplo de formulario <span style="text-transform: uppercase">html</span>
+        </h1>
+    </header>
+    <form method="post" action="mailto:a.sz@gmail.com" oninput="result.value=parseInt(valor_01.value) + parseInt(valor_02.value)">
+        <fieldset style="width: 450px">
+            <legend>Primeiro</legend>
+            <label for="cNome">
+                Nome
+            </label>
+            <br>
+            <input type="text" name="nome" id="cnome" size="50px" required="required">
+            <br>
+            <p>onde voce mora</p>
+            <input type="radio" name="cidint" id="1cidade" value="C">
+            <label for="1cidade">Cidade</label>
+            <br>
+            <input type="radio" name="cidint" id="interior" value="I">
+            <label for="interior">Interior</label>
+        </fieldset>
+        <br><br>
+        <fieldset style="width: 450px">
+            <legend>Segundo</legend>
+            <p>Qual meio de transporte voce usa</p>
+    
+            <input type="checkbox" name="transporteBicicleta" id="bicicleta">
+            <label for="bicicleta">Bicicleta</label>
+            <br>
+    
+            <input type="checkbox" name="transporteMoto" id="moto">
+            <label for="moto">Moto</label>
+            <br>
+    
+            <input type="checkbox" name="transporteCarro" id="carro">
+            <label for="carro">Carro</label>
+        </fieldset>
+        <br><br>
+
+        <fieldset style="width: 450px">
+            <select name="time" id="time">
+                <option value="flamengo">flamengo</option>
+                <option value="flamengo">flamengo</option>
+                <option value="flamengo">flamengo</option>
+                <option value="flamengo">flamengo</option>
+                <option value="flamengo">flamengo</option>
+                <option value="flamengo">flamengo</option>
+                <option value="flamengo">flamengo</option>
+            </select>
+        <br><br>
+        <label for="cCid">escolha a sua cidade na lista </label>
+
+
+        <br><br>
+        <label for="cCid">Escolha a sua Cidade na lista:</label>
+        <input autocomplete="on" list="cidade" name="tCid" id="cCid" />
+        <datalist id="cidade">
+            <option value="São Paulo"></option>
+            <option value="Campinas"></option>
+            <option value="Santos"></option>
+            <option value="Santo André"></option>
+            <option value="Osasco"></option>
+        </datalist>
+        <br><br>
+        0
+        <input type="range" name="valor_01" id="valor_01">
+        100
+         +
+        <input type="number" name="valor_02" id="valor_02">
+        =
+        <output name="resultado" for="valor_01 valor_02">
+
+        </output>
+        </fieldset>
+        <br><br>
+        <fieldset style="width: 450px">
+            <legend>Nos de sea opnião</legend>
+            <textarea name="" id="" cols="30" rows="10" style="text-align: left"></textarea>
+            <br><br>
+            <input type="submit" value="pronto">
+        </fieldset>
+        
+    </form>
+    <footer>bertinho te ama</footer>
+
+</body>
+
+</html>
