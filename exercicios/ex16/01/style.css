@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 20px;
+}
+.container div{
+    background-color: antiquewhite;
+    padding: 20px;
+    box-sizing: border-box
+}
+.container div:first-child{
+    background-color: red;
+}
+.container div:nth-child(3){
+    background-color: red;
+}

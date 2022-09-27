@@ -1,0 +1,39 @@
+header{
+    color: grey;
+}
+ul{
+    margin: 0;
+    padding-inline: 20px;
+}
+ul li:nth-child(2) > a:hover{
+    color: red;
+}
+ul li:nth-child(3) > a:active{
+    color: aqua;
+}
+#botao{
+    color: white;
+    padding-inline: 20px;
+    padding-block: 10px;
+    background-color: black;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.lista{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.lista h2{
+    text-align: center;
+}
+.lista ul{
+    list-style: none;
+    
+}
+.lista li{
+    border-bottom: 1px dashed rgb(0, 140, 255);
+    margin-bottom: 10px;
+}
+.lista li:last-child{
+    margin-bottom: 40px;
+}

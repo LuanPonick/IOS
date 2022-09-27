@@ -1,0 +1,8 @@
+p::after{
+    content: 'leia mais';
+    color: red;
+}
+p::before{
+    content: "leai menos ";
+    color: pink;
+}

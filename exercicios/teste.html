@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            margin: 0;
+        }
+        .container{
+            width: 100%;
+            height: initial;
+            border: 1px solid black;
+            box-sizing: border-box;
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            grid-template-rows: 1fr 7fr 1fr;
+            gap: 10px 10px;
+            justify-items: end;
+            grid-template-areas: "header header header" "main main img" "main main ." "footer footer footer";
+        }
+        .container div{
+            box-sizing: border-box;
+            border: 1px solid black;
+                
+        }
+        .container div:nth-child(even){
+            background-color: red;
+            width: 100%;
+        }
+        .container div:first-child{
+           background-color: pink;
+           grid-area: header;
+        }
+        h5{
+            display: block;
+            width: 70%;
+            border: 2px solid black; 
+        }
+        .container div:nth-child(2){
+            background-color: yellow;
+            grid-area: main;
+        }
+        .container div:nth-child(3){
+            background-color: 
+            red;
+            grid-area: img;
+        }
+        .container div:last-child{
+            background-color: 
+            black;
+            color: white;
+            grid-area: footer;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="">
+            <h5>Officiis itaque similique, tenetur ex officia praesentium quis vitae necessitatibus enim, fugit placeat quaerat, eligendi molestiae iste est? Sit iure reprehenderit nihil! Illo vero libero repellendus ab quibusdam incidunt. Minima.</h5>
+        </div>
+        <div class="">
+            <h5>Delectus suscipit provident animi eos minus illo reiciendis odio iste dicta, sequi laborum est molestiae rem ab dolor non quidem temporibus fugit nesciunt! Voluptatem dolor non veniam iusto excepturi repellendus.</h5>
+        </div>
+        <div class="">
+            <h5>Quas quam ad fuga libero et possimus asperiores. Eaque a atque consequatur harum odio placeat inventore optio earum est quae obcaecati quo quaerat, corporis ipsam, asperiores vel fuga veniam dignissimos?</h5>
+        </div>
+        <div class="">
+            <h5>Recusandae, autem dignissimos earum tenetur at facilis delectus iste ducimus cum ratione aliquid tempore quos accusantium hic enim facere veniam incidunt suscipit! Culpa debitis natus aperiam esse unde optio earum!</h5>
+        </div>
+    </div>
+</body>
+</html>

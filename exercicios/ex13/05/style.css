@@ -1,0 +1,9 @@
+p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 10px;
+}
+p::first-letter{
+    font-size: 50px;
+    margin-top: -5px;
+    float: left;
+}

@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    background-color: grey;
+}
+header{
+    padding: 20px;
+    color: rgb(85, 85, 85);
+    text-align: center;
+}
+:first-child section{
+    margin-left: 1%;
+}
+section{
+    background-color: white;
+    margin-bottom: 20px;
+    color: grey;
+    width: 30%;
+    display: inline-block;
+}
+li{
+    padding: 30px;
+    text-align: center;
+}
+.titulo{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+}
+.cadastro{
+    text-align: center;
+}
+.cadastro a{
+    color: white;
+    padding: 3%;
+    padding-inline: 4%;
+    background-color: rgb(21, 201, 21);
+    display: inline-block;
+}
+.principal{
+    background-color: rgb(21, 201, 21);
+}
+@media(max-width:785px) {
+    section{
+        width: 100%;
+    }
+    :first-child section{
+        margin-left: 0%;
+    }
+}

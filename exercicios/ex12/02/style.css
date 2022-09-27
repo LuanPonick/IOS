@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+.float{
+    border: rgba(0, 128, 0, 0.534) solid 2px;
+    float: left;
+    height: 50px;
+}
+.divs:hover{
+    border: 2px solid rgba(255, 0, 0, 0.411);
+    height: 50px;
+}
+.clear{
+    clear: both;
+}

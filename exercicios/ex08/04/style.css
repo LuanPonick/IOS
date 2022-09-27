@@ -1,0 +1,20 @@
+:root{
+    --cor-do-bakground : #49274A;
+}
+body{
+    background-color: var(--cor-do-bakground);
+    color: rgb(224, 224, 224);
+}
+table{
+    width: 100%;
+    text-align: center;
+}
+#paragrafo01main{
+    background-color: #f4decb;
+    color: black;
+}
+th,td{
+    background-color: grey;
+    background-color: #7e5c80;
+    width: 50%;
+}

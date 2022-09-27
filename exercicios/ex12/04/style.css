@@ -1,0 +1,18 @@
+h1::before{
+    content: "Display : ";
+}
+span{
+    color: red;
+}
+.none span{
+    display: none;
+}
+.inline span{
+    display: inline;
+}
+.block span{
+    display: block;
+}
+.inline-block span{
+    display: inline-block;
+}
